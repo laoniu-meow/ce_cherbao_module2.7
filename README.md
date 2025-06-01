@@ -23,4 +23,4 @@ Step 9: Stage and commit the local repository to remote repository, command:
 git add .
 git commit - m "<commit message>"
 Step 10: Check the branch to confirm is "main", command: git branch
-Step 11: push the local repository to remote, command: git push -u origin main
+Step 11: push the local repository to remote, command: git push -u origin main (Once push sucessfully, next commit and push can use command: "git push")
