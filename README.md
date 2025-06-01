@@ -15,15 +15,22 @@ Step 2: Create a directory by excute the command: mkdir <foldername>
 Step 3: Navigate to the folder, command: cd <foldername>
 
 Step 4: Create a read me file, command: touch README.md
+
 Step 5: Initialise the git repository, command: git init
+
 Step 6: Check the git staging status, git status (You should be able to see the README.md unstage)
 ![Alt text](/public/command_git_status.png)
+
 Step 7: Create a new repository from local to remote, command: git remote add origin <github url>
 url example: git remote set-url origin git@github.com:<github_username>/<repo_name>.git
+
 Step 8: Check the remote url, command: git remote -v
 ![Alt text](/public/command_git_remote.png)
+
 Step 9: Stage and commit the local repository to remote repository, command:
 git add .
 git commit - m "<commit message>"
+
 Step 10: Check the branch to confirm is "main", command: git branch
+
 Step 11: push the local repository to remote, command: git push -u origin main (Once push sucessfully, next commit and push can use command: "git push")
