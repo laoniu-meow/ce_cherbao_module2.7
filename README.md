@@ -9,8 +9,11 @@
 
 Preparation:
 Step 1: Create a new repository in GitHub (the repository name will be use for the folder name)
+
 Step 2: Create a directory by excute the command: mkdir <foldername>
+
 Step 3: Navigate to the folder, command: cd <foldername>
+
 Step 4: Create a read me file, command: touch README.md
 Step 5: Initialise the git repository, command: git init
 Step 6: Check the git staging status, git status (You should be able to see the README.md unstage)
