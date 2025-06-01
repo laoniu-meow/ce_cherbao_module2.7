@@ -8,6 +8,7 @@
 - Challenge 2: create repo and push from local to GitHub
 
 Preparation:
+
 Step 1: Create a new repository in GitHub (the repository name will be use for the folder name)
 
 Step 2: Create a directory by excute the command: mkdir <foldername>
