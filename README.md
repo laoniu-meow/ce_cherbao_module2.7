@@ -7,8 +7,6 @@
 - Challenge 1: format and mount the EBS volume
 - Challenge 2: create repo and push from local to GitHub
 
-* Notes
-
 Preparation:
 
 Step 1: Create a new repository in GitHub (the repository name will be use for the folder name)
@@ -39,6 +37,8 @@ Step 10: Check the branch to confirm is "main", command: git branch
 Step 11: push the local repository to remote, command: git push -u origin main (Once push sucessfully, next commit and push can use command: "git push")
 
 # Basic Terraform to create AWS VPC and EC2 Instance
+
+- Notes: My assignment involves practicing how to create resources in separate files to make it cleaner and easier to understand the concept.
 
 Step 1: Create the start file for provider.tf, variables.tf and terraform.tfvars, with command: touch <filename>.tf
 
