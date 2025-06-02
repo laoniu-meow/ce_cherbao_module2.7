@@ -35,3 +35,11 @@ git commit - m "<commit message>"
 Step 10: Check the branch to confirm is "main", command: git branch
 
 Step 11: push the local repository to remote, command: git push -u origin main (Once push sucessfully, next commit and push can use command: "git push")
+
+# Basic Terraform to create AWS VPC and EC2 Instance
+
+Step 1: Create the start file for provider.tf, variables.tf and terraform.tfvars, with command: touch <filename>.tf
+
+Step 2: Create Provider Configuration with terraform version, provider with the default tags
+Create the variables.tf to define the default configuration
+Create the terraform.tfvars to define the final configuration
