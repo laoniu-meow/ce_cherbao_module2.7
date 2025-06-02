@@ -7,6 +7,8 @@
 - Challenge 1: format and mount the EBS volume
 - Challenge 2: create repo and push from local to GitHub
 
+* Notes
+
 Preparation:
 
 Step 1: Create a new repository in GitHub (the repository name will be use for the folder name)
@@ -40,8 +42,14 @@ Step 11: push the local repository to remote, command: git push -u origin main (
 
 Step 1: Create the start file for provider.tf, variables.tf and terraform.tfvars, with command: touch <filename>.tf
 
-Step 2:
+Step 2: Create Provider Configuration with terraform version, provider with the default tags
 
-- Create Provider Configuration with terraform version, provider with the default tags
+- Create the provider.tf
 - Create the variables.tf to define the default configuration
 - Create the terraform.tfvars to define the final configuration
+
+Step 3: Create the security group fot the EC2 Instance
+
+- Create the security_group.tf
+- Re-use the variables.tf to define the default configuration
+- Re-use the terraform.tfvars to define the final configuration
