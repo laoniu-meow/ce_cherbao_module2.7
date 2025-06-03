@@ -48,8 +48,33 @@ Step 2: Create Provider Configuration with terraform version, provider with the 
 - Create the variables.tf to define the default configuration
 - Create the terraform.tfvars to define the final configuration
 
-Step 3: Create the security group fot the EC2 Instance
+Step 3: Create a VPC
+
+- Create the vpc.tf
+- Re-use the variables.tf to define the default configuration
+- Re-use the terraform.tfvars to define the final configuration
+
+Step 4: Create the security group for the EC2 Instance
 
 - Create the security_group.tf
 - Re-use the variables.tf to define the default configuration
 - Re-use the terraform.tfvars to define the final configuration
+
+Step 5: Create the EC2 Instance
+
+- Create the ec2.tf
+- Re-use the variables.tf to define the default configuration
+- Re-use the terraform.tfvars to define the final configuration
+
+Step 6: Create the Elastic Block Storage
+
+- Create the ebs.tf
+- Re-use the variables.tf to define the default configuration
+- Re-use the terraform.tfvars to define the final configuration
+
+Result after format and mount the EBS
+![Alt text](/public/Assignment2.7-result1.png)
+
+![Alt text](/public/Assignment2.7-result2.png)
+
+![Alt text](/public/Assignment2.7-result3.png)

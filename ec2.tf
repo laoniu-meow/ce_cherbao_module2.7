@@ -18,12 +18,14 @@ data "aws_ami" "amazon_linux_2" {
 
 # Create an EC2 instance with T2.micro instance type
 resource "aws_instance" "ec2_instance" {
-  ami             = data.aws_ami.amazon_linux_2.id
-  instance_type   = "t2.micro"
-  security_groups = [var.security_group_name]
-  key_name        = "laoniu"
+  ami                         = data.aws_ami.amazon_linux_2.id
+  instance_type               = var.instance_type
+  vpc_security_group_ids      = [aws_security_group.security_group_name.id]
+  subnet_id                   = aws_subnet.subnet.id
+  key_name                    = var.key_pair_name
+  associate_public_ip_address = true
 
   tags = {
-    Name = "ce10_laoniu_ec2_instance"
+    Name = var.ec2_instance_name
   }
 }
