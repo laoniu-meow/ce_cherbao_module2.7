@@ -15,7 +15,7 @@ Step 2: Create a directory by excute the command: mkdir <foldername>
 
 Step 3: Navigate to the folder, command: cd <foldername>
 
-Step 4: Create a read me file, command: touch README.md, and explain on the steps of the assingment
+Step 4: Create a read me file, command: touch README.md
 
 Step 5: Initialise the git repository, command: git init
 
@@ -24,11 +24,11 @@ Step 6: Check the git staging status, git status (You should be able to see the 
 
 Step 7: Connecting your local Git repository to a remote repository
 
-- command: git remote add origin <github url>
+- command: git remote add origin https://<github_url>
 
   then
 
-- command: git remote set-url origin <github url>
+- command: git remote set-url origin https://<github_url>
 
 url example: <github_username>/<repo_name>.git
 
