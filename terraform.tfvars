@@ -9,7 +9,7 @@ region       = "ap-southeast-1"
 security_group_name = "ce10_laoniu_security_group"
 
 # Define the key pair name
-key_pair_name = "laoniu-pem"
+key_pair_name = "private-key"
 
 # Define the instance type
 instance_type = "t2.micro"
